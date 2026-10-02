@@ -1,47 +1,71 @@
-# Metadados do Dataset
+# Metodologia do Projeto
 
-## 1. Identificação
+## 1. Abordagem
 
-**Dataset:** Brazilian E-Commerce Public Dataset by Olist
+O projeto será desenvolvido utilizando técnicas de Ciência de Dados
+aplicadas à análise de operações de comércio eletrônico e logística.
 
-**Área:** E-commerce e logística
+O objetivo é analisar informações relacionadas aos pedidos e entregas,
+buscando identificar padrões de desempenho e fatores associados à
+ocorrência de atrasos.
 
-**Fonte:** Olist / Kaggle
+## 2. Etapas do projeto
 
-**Período dos dados:** 2016 a 2018
+O desenvolvimento será dividido nas seguintes etapas:
 
-**Formato:** CSV
+1. Seleção e compreensão do dataset;
+2. Levantamento dos metadados;
+3. Preparação e tratamento dos dados;
+4. Análise exploratória;
+5. Criação de indicadores logísticos;
+6. Identificação de padrões relacionados aos atrasos;
+7. Desenvolvimento de visualizações;
+8. Interpretação dos resultados;
+9. Documentação;
+10. Apresentação dos resultados.
 
-## 2. Descrição
+## 3. Indicador principal
 
-O dataset utilizado no projeto contém informações relacionadas a
-operações de comércio eletrônico, incluindo pedidos, clientes,
-vendedores, produtos, pagamentos, avaliações e informações relacionadas
-às entregas.
+Um dos principais indicadores do projeto será o atraso na entrega.
 
-Os dados serão utilizados para analisar o desempenho das entregas e
-identificar fatores associados à ocorrência de atrasos.
+Será realizada uma comparação entre a data efetiva de entrega e a data
+estimada de entrega.
 
-## 3. Arquivos utilizados
+A partir dessa comparação será possível classificar os pedidos de acordo
+com o cumprimento ou não do prazo estimado.
 
-- olist_orders_dataset.csv
-- olist_order_items_dataset.csv
-- olist_order_payments_dataset.csv
-- olist_order_reviews_dataset.csv
-- olist_products_dataset.csv
-- olist_sellers_dataset.csv
-- olist_customers_dataset.csv
-- olist_geolocation_dataset.csv
-- product_category_name_translation.csv
+## 4. Variáveis de interesse
 
-## 4. Variáveis
+Entre as principais informações a serem analisadas estão:
 
-As variáveis serão analisadas e documentadas de acordo com os arquivos
-originais do dataset.
+- identificação do pedido;
+- status do pedido;
+- data da compra;
+- data de aprovação;
+- data de envio;
+- data efetiva da entrega;
+- data estimada da entrega;
+- localização do cliente;
+- localização do vendedor;
+- valor dos produtos;
+- valor do frete;
+- categoria dos produtos;
+- avaliação realizada pelo cliente.
 
 ## 5. Tratamento dos dados
 
-Os dados originais serão preservados na pasta `data/raw/`. Após a
-avaliação da qualidade dos dados, serão realizadas as etapas de limpeza,
-tratamento de valores ausentes, conversão de tipos e integração das
-tabelas necessárias para a análise.
+Durante a etapa de tratamento serão avaliados:
+
+- valores ausentes;
+- tipos das variáveis;
+- registros duplicados;
+- inconsistências;
+- datas;
+- integração entre diferentes tabelas;
+- necessidade de criação de novas variáveis.
+
+## 6. Resultados esperados
+
+Espera-se identificar padrões relacionados ao desempenho das entregas,
+permitindo compreender características associadas ao cumprimento ou
+descumprimento dos prazos.
