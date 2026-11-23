@@ -243,7 +243,7 @@ Classificação do pedido como:
 As regras definitivas de classificação serão documentadas durante a
 etapa de tratamento dos dados.
 
-3. Variáveis efetivamente utilizadas no modelo preditivo
+# 13. Variáveis efetivamente utilizadas no modelo preditivo
 Na primeira versão do modelo de Regressão Logística, foram utilizadas as seguintes variáveis:
 Variável	Origem	Utilização
 price	Itens dos pedidos	Valor dos produtos
