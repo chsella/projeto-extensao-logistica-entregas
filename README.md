@@ -1,91 +1,51 @@
-# Projeto de Extensão – Análise de Desempenho Logístico e Entregas
 
-## Integrante
+# Análise de Desempenho Logístico e Previsão do Indicador de Entrega
 
-**Ingryd Cristine Hidalgo Sella**  
-**RA:** 10424934  
-**Curso:** Ciência de Dados
+## Sobre o projeto
 
----
+Projeto de extensão em Ciência de Dados desenvolvido a partir do Brazilian E-Commerce Public Dataset by Olist.
 
-## 1. Sobre o projeto
+O objetivo é analisar o comportamento temporal do indicador de pontualidade das entregas e desenvolver modelos capazes de realizar previsões diárias desse indicador.
 
-Este projeto de extensão tem como objetivo aplicar técnicas de Ciência
-de Dados à análise de operações relacionadas ao comércio eletrônico e
-à logística de entregas.
+## Objetivo
 
-O estudo será desenvolvido utilizando dados públicos do Brazilian
-E-Commerce Public Dataset by Olist, permitindo analisar informações
-relacionadas a pedidos, clientes, vendedores, produtos, pagamentos,
-avaliações e entregas.
+Construir uma série temporal diária a partir dos pedidos entregues, calcular o indicador médio de entrega e comparar modelos de previsão, utilizando:
 
----
+- Naive tradicional;
+- Naive sazonal;
+- SARIMA;
+- Prophet.
 
-## 2. Organização escolhida
+## Metodologia
 
-A organização utilizada como referência para o projeto é a **Olist**,
-empresa brasileira que atua no segmento de tecnologia para comércio
-eletrônico, oferecendo soluções para empresas que desejam vender seus
-produtos em diferentes canais digitais.
+O projeto contempla:
 
-O projeto terá como foco a dimensão logística das operações de
-comércio eletrônico, especialmente o desempenho das entregas.
+1. Coleta e preparação dos dados;
+2. Construção da série temporal diária;
+3. Análise exploratória;
+4. Decomposição da série temporal;
+5. Teste de estacionariedade;
+6. Treinamento dos modelos;
+7. Avaliação por MAE, MAPE e RMSE;
+8. Diagnóstico dos resíduos e comparação dos resultados.
 
----
+## Base de dados
 
-## 3. Problema
+Brazilian E-Commerce Public Dataset by Olist.
 
-A eficiência das entregas é um fator importante para a operação de
-comércio eletrônico e para a experiência do consumidor.
+## Tecnologias
 
-Diante disso, o projeto busca responder à seguinte questão:
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Statsmodels
+- Scikit-learn
+- Prophet
+- Google Colab
 
-> Como a análise de dados pode auxiliar na identificação de fatores
-> associados aos atrasos nas entregas e contribuir para o acompanhamento
-> do desempenho logístico?
+## Autora
 
----
+Ingryd Cristine Hidalgo Sella
 
-## 4. Objetivo geral
-
-Analisar dados relacionados às operações de entrega para identificar
-padrões de desempenho logístico e fatores associados aos atrasos,
-utilizando técnicas de análise e visualização de dados.
-
----
-
-## 5. Objetivos específicos
-
-- Organizar o dataset utilizado no projeto;
-- Identificar e documentar as principais variáveis;
-- Realizar o tratamento dos dados;
-- Analisar o tempo de entrega dos pedidos;
-- Identificar ocorrências de atraso;
-- Desenvolver indicadores de desempenho logístico;
-- Analisar possíveis fatores associados aos atrasos;
-- Desenvolver visualizações para facilitar a interpretação dos dados;
-- Documentar as etapas e resultados do projeto.
-
----
-
-## 6. Dataset
-
-O projeto utiliza o **Brazilian E-Commerce Public Dataset by Olist**,
-uma base pública relacionada a operações de comércio eletrônico.
-
-O conjunto de dados reúne informações sobre:
-
-- pedidos;
-- clientes;
-- vendedores;
-- produtos;
-- pagamentos;
-- avaliações;
-- itens dos pedidos;
-- localização;
-- informações relacionadas às entregas.
-
-Os arquivos originais são mantidos no diretório:
-
-```text
-data/raw/
+Ciência de Dados — Universidade Presbiteriana Mackenzie
